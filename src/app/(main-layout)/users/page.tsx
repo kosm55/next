@@ -6,6 +6,7 @@ import {Metadata} from "next";
 export const metadata: Metadata = {
     title: "Users"
 };
+
 interface IProps extends PropsWithChildren {
 
 }
