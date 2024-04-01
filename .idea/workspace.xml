@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1181de5b-cfe2-4053-86f2-f25ea481d731" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/posts/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/page.tsx" afterDir="false" />
+    <list default="true" id="1181de5b-cfe2-4053-86f2-f25ea481d731" name="Changes" comment="lesson1 next">
+      <change afterPath="$PROJECT_DIR$/src/app/(main-layout)/components/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main-layout)/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main-layout)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main-layout)/users/[id]/posts/components/Post.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main-layout)/users/[id]/posts/components/Posts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main-layout)/users/[id]/posts/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main-layout)/users/components/User.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(main-layout)/users/components/Users.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-found.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/urls.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/postInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/userInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/apiService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/userService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/posts/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(main-layout)/posts/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/users/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(main-layout)/users/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -31,11 +43,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2eF4ejp6CXdXq3PvfxqANw0Cp8F" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +60,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "js.last.introduce.type": "CONST",
     "last_opened_file_path": "C:/Users/Liudmyla/Desktop/октен фулстак навчання/next/src/app/users",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,6 +76,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Liudmyla\Desktop\октен фулстак навчання\next\src\app\users" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Liudmyla\Desktop\октен фулстак навчання\next\src\app\(main-layout)\users\[id]\posts\components" />
+      <recent name="C:\Users\Liudmyla\Desktop\октен фулстак навчання\next\src" />
+      <recent name="C:\Users\Liudmyla\Desktop\октен фулстак навчання\next\src\app\(main-layout)" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,11 +90,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711487090975</updated>
-      <workItem from="1711487091991" duration="1323000" />
+      <workItem from="1711487091991" duration="1853000" />
+      <workItem from="1711489226227" duration="64000" />
+      <workItem from="1711972384193" duration="8879000" />
     </task>
+    <task id="LOCAL-00001" summary="lesson1 next">
+      <option name="closed" value="true" />
+      <created>1711488444537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711488444537</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson1 next" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson1 next" />
   </component>
 </project>
